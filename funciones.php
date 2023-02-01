@@ -61,6 +61,6 @@
 
    function consulta ($select1, $numeroi, $select2, $numeroc, $fecha, $conexion){
         $consulta = "INSERT INTO registros(sistemai, numeroi, sistemas, numeros, fecha) VALUES ('$select1', '$numeroi', '$select2', '$numeroc', '$fecha')";
-        $res = mysql_query($conexion, $consulta)
+        $res = mysql_query($conexion, $consulta);
    }
 ?>
