@@ -1,50 +1,62 @@
 <?php
    function decimalbinario($numero){
-       $numeroc = echo decbin($numero);
+       $numeroc = decbin($numero);
+       echo ($numero);
    }
 
    function decimalhexadecimal($numero){
-        $numeroc = echo dechex($numero);
+        $numerdechex($numero);
+        echo ($numero);
    }
 
    function decimaloctal($numero){
-       $numeroc = echo decoct($numero);
+       $numeroc = decoct($numero);
+       echo ($numero);
    }
 
    function binariodecimal($numero){
-       $numeroc = echo bindec($numero);
+       $numeroc = bindec($numero);
+       echo ($numero);
    }
 
    function binariohexadecimal($numero){
-       $numeroc = echo bin2hex($numero);
+       $numeroc = bin2hex($numero);
+       echo ($numero);
    }
 
    function binariooctal($numero){
-       $numeroc = echo($numero);
+       $numeroc = ($numero);
+       echo ($numero);
    }
 
    function octaldecimal($numero){
-       $numeroc = echo octdec($numero);
+       $numeroc = octdec($numero);
+       echo ($numero);
    }
 
    function octalbinario($numero){
-       $numeroc = echo ($numero);
+       $numeroc = ($numero);
+       echo ($numero);
    }
 
    function octalhexadecimal($numero){
-       $numeroc = echo ($numero);
+       $numeroc = ($numero);
+       echo ($numero);
    }
 
    function hexadecimaldecimal($numero){
-       $numeroc = echo hexdec($numero);
+       $numeroc = hexdec($numero);
+       echo ($numero);
    }
 
    function hexadecimalbinario($numero){
-       $numeroc = echo hex2bin($numero);
+       $numeroc = hex2bin($numero);
+       echo ($numero);
    }
 
    function hexadecimaloctal($numero){
-       $numeroc = echo ($numero);
+       $numeroc = ($numero);
+       echo ($numero);
    }
 
    function consulta ($select1, $numeroi, $select2, $numeroc, $fecha, $conexion){
