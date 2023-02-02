@@ -27,7 +27,7 @@
                         <option value='hexadecimal'>Hexadecimal</option>
                         <option value='octal'>Octal</option>
                     </select>
-                    <input type='submit' name='convertir'>
+                    <button type='submit' name='convertir' class='input-button'><h3>Convertir</h3></button>
                 </form>
             </div>
             <div class='reply-Section'>
